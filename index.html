@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Router</title>
+    <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router@3/dist/vue-router.js"></script>
+</head>
+<body>
+    <div id="app">
+        <router-link to = "/home">Home</router-link>
+        <router-link to = "/profile/mad1">Profile</router-link>
+        <router-view></router-view>
+    </div>
+</body>
+<!-- <script src="./script.js"></script> throw error bcz imported file is also importing some code from somewhere else -->
+ <script type="module" src="/script.js"></script>
+</html>
